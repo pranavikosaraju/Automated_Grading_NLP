@@ -1,0 +1,2 @@
+# Automated_Grading_NLP
+This project is to develop an Automated Grading System that has a set of question and answers in a MongoDB database. The model pops a random question from the database to the user and compares the answer of the user with the answer in the database after applying the NLP pre-processing steps. Then at the end cosine similarity is used to calculate the percentage of correctness and then decides weather the user passed or failed the test.
